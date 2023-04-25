@@ -19,6 +19,7 @@ This template was created to give developers a starting point for new google ext
 
 - Written with TypeScript.
 - Uses manifest version 3.
+- Uses React 18
 - Written with ESM for future compatibility with packages.
 - webpack Prod & Dev included
 
