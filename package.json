@@ -1,0 +1,27 @@
+{
+  "name": "password_extention",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch --progress --config webpack.dev.js",
+    "build": "webpack --watch --progress --config webpack.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.233",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
